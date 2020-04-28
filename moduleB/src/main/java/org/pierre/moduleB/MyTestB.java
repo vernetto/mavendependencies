@@ -8,6 +8,6 @@ public class MyTestB {
 
     public static void main(String[] args) {
         CPTools.printClasspath();
-        log.error("moduleB ciao");
+        log.info("moduleB ciao");
     }
 }

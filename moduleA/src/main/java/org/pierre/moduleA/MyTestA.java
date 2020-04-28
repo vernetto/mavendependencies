@@ -7,6 +7,6 @@ import org.pierre.moduleB.CPTools;
 public class MyTestA {
     public static void main(String[] args) {
         CPTools.printClasspath();
-        log.error("moduleA ciao");
+        log.info("moduleA ciao");
     }
 }
