@@ -8,7 +8,7 @@ using <exclusions>exclusion>  <exclusion>exclusions> should fix it
   
 mvn dependency:tree -Dverbose will display all dependencies
 
-mvn dependency:tree -Dverbose log4:log4j displays only log4j dependencies
+mvn dependency:tree -Dverbose -Dincludes=log4:log4j displays only log4j dependencies
 
 
  
