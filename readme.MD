@@ -9,6 +9,7 @@ using <exclusions>exclusion>  <exclusion>exclusions> should fix it
 mvn dependency:tree -Dverbose will display all dependencies
 
 mvn dependency:tree -Dverbose -Dincludes=log4:log4j displays only log4j dependencies
+(for syntax see here https://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html  )
 
 
  
