@@ -30,7 +30,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <log4j-api.version>2.13.2</log4j-api.version>
+        <log4j-api.version>2.16.0</log4j-api.version>
     </properties>
 
     <profiles>
